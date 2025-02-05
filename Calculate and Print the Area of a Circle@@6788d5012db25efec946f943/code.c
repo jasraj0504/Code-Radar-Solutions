@@ -3,7 +3,9 @@
 
 int main() {
     float pie=3.14;
-    float a=r**r;
+    float a;
+    float num;
+    num=a*a;
     scanf("%f",&a);
     printf("%f",pie*a);
     return 0;
