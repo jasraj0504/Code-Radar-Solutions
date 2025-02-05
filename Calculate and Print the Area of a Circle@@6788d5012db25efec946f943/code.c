@@ -2,7 +2,7 @@
 
 
 int main() {
-    const pie=3.14;
+    const (float) pie=3.14;
     float a;
     float num;
     num=a*a;
