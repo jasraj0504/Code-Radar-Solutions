@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main(){
 int a,b;
-if(a>0)
+if(a>0){
+    if(a<0)
+    printf("False");
+}
 printf("True");
-if(a<0)
-printf("False")
-else
-print("j")
+else()
+print("j");
 return 0;
 }
