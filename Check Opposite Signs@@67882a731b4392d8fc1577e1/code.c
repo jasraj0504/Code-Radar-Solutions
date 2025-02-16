@@ -2,7 +2,7 @@
 
 int main() {
     int a = 0, b = 0; // Initialize the variables
-    printf("Enter two integers: ");
+    
     scanf("%d %d", &a, &b); // Take input from the user
 
     if(a > 0)
