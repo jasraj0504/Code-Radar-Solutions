@@ -3,7 +3,7 @@
 int main() {
     int a, b;
 
-    printf("Enter two integers: ");
+   
     scanf("%d %d", &a, &b); // Take input from the user
 
     if (a > 0 || b > 0)
