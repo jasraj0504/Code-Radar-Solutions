@@ -9,10 +9,10 @@ int main() {
     
     // Check if the character is uppercase or lowercase
     if (ch >= 'A' && ch <= 'Z') {
-        printf("Uppercase);
+        printf("Uppercase");
     } 
      else {
-        printf("Lowercase);
+        printf("Lowercase");
     }
     return 0;}
 
