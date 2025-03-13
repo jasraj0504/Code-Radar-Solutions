@@ -5,6 +5,7 @@ int main(){
     scanf("&d",&l);
    
     if(p>l){printf("Profit");}
-    else{printf("Loss");}
+    else if(l>p){printf("Loss");}
+    else{printf("No Profit No Loss")}
 return 0;
 }
