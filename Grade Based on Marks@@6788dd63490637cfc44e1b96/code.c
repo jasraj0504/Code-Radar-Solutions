@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main{
+int main(){
     int a;
     scanf("%d",&a)
     if(a>=90){
@@ -10,4 +10,4 @@ int main{
     else(printf("f");)
     
 return 0;
-}()
+}
