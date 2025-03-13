@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,;
+    int a;
     
     scanf("%d %d %d", &a);
     if(a>=18){printf("Eligible");}
