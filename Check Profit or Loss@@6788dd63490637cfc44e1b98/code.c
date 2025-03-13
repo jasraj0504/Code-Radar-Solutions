@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int p, l;
+    int a, b;
     
     // Taking input for cost price and selling price
-    scanf("%d", &p);
-    scanf("%d", &l);
+    scanf("%d", &a);
+    scanf("%d", &b);
 
     // Checking profit, loss, or no profit/no loss
-    if (p > l) {
+    if (a > b) {
         printf("Profit");
-    } else if (p < l) { 
+    } else if (a < b) { 
         printf("Loss");
     } else {
         printf("No Profit No Loss");
