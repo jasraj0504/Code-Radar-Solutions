@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int p,l,sum;
+    int p,l;
     scanf("%d",&p);
     scanf("&d",&l);
-    sum=p+l;
-    if(sum>0){printf("Profit");}
+   
+    if(p>l){printf("Profit");}
     else{printf("Loss");}
 return 0;
 }
