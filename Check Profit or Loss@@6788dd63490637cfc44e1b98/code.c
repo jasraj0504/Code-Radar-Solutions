@@ -8,9 +8,9 @@ int main() {
     scanf("%d", &b);
 
     // Checking profit, loss, or no profit/no loss
-    if (a > b) {
+    if (b> a) {
         printf("Profit");
-    } else if (a < b) { 
+    } else if (b < a) { 
         printf("Loss");
     } else {
         printf("No Profit No Loss");
