@@ -13,7 +13,7 @@ int main() {
     } else if (a >= 60) {
         printf("D");
     } else {
-        printf("F");  // Capitalized 'F' for consistency
+        printf("F");  
     }
 
     return 0;
