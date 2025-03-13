@@ -7,7 +7,7 @@ int main(){
     else if(90>a>=80){printf("B");}
     else if(70<=a<80){printf("C");}
     else if(60<=a<70){printf("D");}
-    else(printf("f");)
+    else{printf("f")};
     
 return 0;
 }
