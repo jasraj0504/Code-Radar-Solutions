@@ -5,7 +5,7 @@ int a,b,c;
       scanf("%d",&b);
          scanf("%d",&c);
          if(a>0){
-            prinf("Positive");
+            printf("Positive");
          }
 if(a<0){
     printf("Negative");
