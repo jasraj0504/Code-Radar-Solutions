@@ -5,7 +5,7 @@ int  a,b;
   scanf("%d",&b);
 if(a==b){printf("Equal");}
 else if(a>b){printf("First");}
-else{"Second"};
+else{printf("Second");}
 
 
 
