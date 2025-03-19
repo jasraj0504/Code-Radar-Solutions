@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&a);
     switch(a){
         case 0:
-        printf("Invalid")
+        printf("Invalid");
         break;
         case 1:
         printf("Monday");
