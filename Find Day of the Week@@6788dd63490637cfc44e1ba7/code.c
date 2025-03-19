@@ -3,6 +3,9 @@ int main(){
     int a;
     scanf("%d",&a);
     switch(a){
+        case 0:
+        printf("Invalid")
+        break;
         case 1:
         printf("Monday");
         break;
