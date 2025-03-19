@@ -3,7 +3,7 @@ int main(){
     int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
-    if(a*a==b){
+    if(a*a==b%a==0){
         printf("Yes");
     }
     else{
