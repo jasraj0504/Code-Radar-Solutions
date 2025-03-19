@@ -3,7 +3,7 @@ int main(){
     int a;
     scanf("%d",&a);
    if(1<=a<=7){
-    switch(a)
+    switch(a){
         case 1:
         printf("Monday");
         break;
@@ -25,7 +25,7 @@ int main(){
         case 7:
         printf("Sunday");
         break;
-}
+}}
     else{printf("Invalid");}
     return 0;
 }
