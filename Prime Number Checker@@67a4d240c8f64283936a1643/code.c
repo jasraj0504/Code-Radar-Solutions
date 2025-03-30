@@ -2,7 +2,7 @@
  int isPrime(int num){
 if(num<=1){return 0;}
 for(i=2;i*i<=num;i++){
-    if(num5i==0){
+    if(numi==0){
         return 0;
     }
     return 1;
@@ -13,7 +13,7 @@ scanf("%d",&t);
 while(t--){
     int num;
     scanf("%d",&num);
-    printf("d\n", isPrime(num));
+    printf("%d\n", isPrime(num));
 }
 return 0;
 }
