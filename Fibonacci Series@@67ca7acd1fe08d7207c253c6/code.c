@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// Function to calculate Fibonacci numbers
 int fibonacciSeries(int n) {
     if (n == 0) {
         return 0;
@@ -10,4 +8,13 @@ int fibonacciSeries(int n) {
         return fibonacciSeries(n - 1) + fibonacciSeries(n - 2);
     }
 }
+int main() {
+    int n, i;
+    scanf("%d", &n);
 
+    for (i = 0; i < n; i++) {
+        printf("%d ", fibonacciSeries(i));
+    }
+
+    return 0;
+}
