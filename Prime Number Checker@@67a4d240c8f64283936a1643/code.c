@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int isPrime(int num); // Function prototype
+
 int main() {
     int t;
     scanf("%d", &t);
@@ -11,11 +13,10 @@ int main() {
     return 0;
 }
 
-// Function to check if a number is prime
 int isPrime(int num) {
-    if (num < 2) return 0; // Numbers less than 2 are not prime
+    if (num < 2) return 0;
     for (int i = 2; i * i <= num; i++) {
-        if (num % i == 0) return 0; // If divisible, not prime
+        if (num % i == 0) return 0;
     }
-    return 1; // If no divisors found, it is prime
+    return 1;
 }
