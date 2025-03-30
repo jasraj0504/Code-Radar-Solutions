@@ -15,7 +15,7 @@ void bubbleSort(int arr[], int n) {
 
 int main() {
     int n;
-   ;
+   
     scanf("%d", &n); // Input number of elements
 
     int arr[n];
