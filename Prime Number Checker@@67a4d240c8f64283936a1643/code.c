@@ -9,7 +9,7 @@ int isPrime(int num) {
     return 1; // If no divisors found, it is prime
 }
 
-int main() {
+int main() {  // Ensure there's only ONE main() function
     int t;
     scanf("%d", &t);
     while (t--) {
