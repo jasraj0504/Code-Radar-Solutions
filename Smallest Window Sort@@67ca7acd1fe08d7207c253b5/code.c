@@ -1,21 +1,27 @@
 #include <stdio.h>
-
 int findUnsortedSubarray(int arr[], int n) {
-    int start = 0, end = n - 1;
-
-    // Find the first out-of-order element from the left
-    while (start < n - 1 && arr[start] <= arr[start + 1]) {
-        start++;
-    }
-    
-    // If already sorted, return 0
-    if (start == n - 1) return 0;
-
-    // Find the first out-of-order element from the right
-    while (end > 0 && arr[end] >= arr[end - 1]) {
-        end--;
+    int left = 0, right = n - 1;
+    while (left < n - 1 && arr[left] <= arr[left + 1]) {
+        left++;
     }
 
-    return end - start + 1;
+    if (left == n - 1) return 0;
+
+    while (right > 0 && arr[right] >= arr[right - 1]) {
+        right--;
+    }
+    int minVal = arr[left], maxVal = arr[left];
+    for (int i = left; i <= right; i++) {
+        if (arr[i] < minVal) minVal = arr[i];
+        if (arr[i] > maxVal) maxVal = arr[i];
+    }
+    while (left > 0 && arr[left - 1] > minVal) {
+        left--;
+    }
+    while (right < n - 1 && arr[right + 1] < maxVal) {
+        right++;
+    }
+
+    return right - left + 1;
 }
 
