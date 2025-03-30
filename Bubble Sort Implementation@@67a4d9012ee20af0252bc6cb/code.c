@@ -15,7 +15,7 @@ void bubbleSort(int arr[], int n) {
 
 int main() {
     int n;
-   
+    // Removed unnecessary semicolon here
     scanf("%d", &n); // Input number of elements
 
     int arr[n];
@@ -26,7 +26,6 @@ int main() {
 
     bubbleSort(arr, n);
 
- 
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
