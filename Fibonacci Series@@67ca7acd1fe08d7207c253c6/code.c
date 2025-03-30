@@ -7,14 +7,3 @@ int fibonacciSeries(int n) {
     } else {
         return fibonacciSeries(n - 1) + fibonacciSeries(n - 2);
     }
-}
-int main() {
-    int n, i;
-    scanf("%d", &n);
-
-    for (i = 0; i < n; i++) {
-        printf("%d ", fibonacciSeries(i));
-    }
-
-    return 0;
-}
